@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.aliaa.sep2.viewController.SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:src="@drawable/ic_directions_bike_black_24dp" />
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="UserName"
+            android:textColorHint="#ffff"
+            android:drawableLeft="@drawable/ic_person_black_24dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Email"
+            android:textColorHint="#ffff"
+            android:drawableLeft="@drawable/ic_email_black_24dp"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:drawablePadding="12dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="Password"
+            android:textColorHint="#ffff"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"/>
+
+        <EditText
+            android:id="@+id/creditCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="12dp"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="CreditNumber"
+            android:inputType="textPassword"
+            android:textColorHint="#ffff"
+            android:drawableLeft="@drawable/ic_credit_card_black_24dp"/>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:clickable="true"
+            android:padding="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawablePadding="12dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/round_border"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_filter_category"
+        android:orderInCategory="100"
+        android:title="@string/action_filter_category" />
+    <item
+        android:id="@+id/action_filter_name"
+        android:orderInCategory="101"
+        android:title="@string/action_filter_name" />
+    <item
+        android:id="@+id/action_filter_author"
+        android:orderInCategory="102"
+        android:title="@string/action_filter_author" />
+    <item
+        android:id="@+id/action_filter_zone"
+        android:orderInCategory="102"
+        android:title="@string/action_filter_zone" />
+    <item
+        android:id="@+id/action_filter_date"
+        android:orderInCategory="102"
+        android:title="@string/action_filter_date" />
+</menu>
